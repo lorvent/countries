@@ -1,8 +1,7 @@
 <?php
 
-use Illuminate\Database\Seeder;
-
 use App\Nationality;
+use Illuminate\Database\Seeder;
 
 class NationalitySeeder extends Seeder
 {
@@ -200,6 +199,5 @@ class NationalitySeeder extends Seeder
         ";
 
         DB::unprepared($statement);
-
     }
 }
